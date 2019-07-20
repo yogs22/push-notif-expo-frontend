@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Member Djuragan Kamar",
+    "slug": "test-push-notif",
+    "version": "1.0.0",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "ios": {
+      "bundleIdentifier": "com.test.pushnotif"
+    },
+    "android": {
+      "package": "com.test.pushnotif"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "notification": {
+      "icon": "./assets/icon-notif.png",
+      "color": "#000000",
+      "androidMode": "default"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}

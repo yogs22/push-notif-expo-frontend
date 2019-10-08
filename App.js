@@ -46,7 +46,7 @@ export default class App extends React.Component {
     }
 
     let token = await Notifications.getExpoPushTokenAsync();
-    console.log(token);
+
     this.setState({ token });
     } catch(error){
       this.setState({ error })
